@@ -12,32 +12,32 @@
 
 <body>
   <!-- Header -->
-  <header>
+  <header id="top">
     <div class="container">
       <div class="navigation">
         <div class="logo">
-          <img src="img/logo.png" alt="">
+          <img src="img/logo.svg" alt="">
         </div>
         <nav class="menu">
           <ul>
             <li><a href="https://www.ncabgroup.com/ru/">Перейти на сайт</a></li>
-            <li><a href="#news">Новости</a></li>
-            <li><a href="#about">О компании</a></li>
-            <li><a href="#contat">Контакты</a></li>
-            <li><a href="#technology">Технологии</a></li>
-            <li><a href="#seminars">Семинары</a></li>
+            <li><a class="anchor" href="#news">Новости</a></li>
+            <li><a class="anchor" href="#about">О компании</a></li>
+            <li><a class="anchor" href="#contat">Контакты</a></li>
+            <li><a class="anchor" href="#technology">Технологии</a></li>
+            <li><a class="anchor" href="#seminars">Семинары</a></li>
           </ul>
         </nav>
 
         <div class="mob-menu">
           <ul>
             <li><a href="https://www.ncabgroup.com/ru/">Перейти на сайт</a></li>
-            <li><a href="#news">Новости</a></li>
-            <li><a href="#about">О компании</a></li>
-            <li><a href="#contat">Контакты</a></li>
-            <li><a href="#technology">Технологии</a></li>
-            <li><a href="#seminars">Семинары</a></li>
-            <li><a href="#help-constructor">В помощь конструктору</a></li>
+            <li><a class="anchor" href="#news">Новости</a></li>
+            <li><a class="anchor" href="#about">О компании</a></li>
+            <li><a class="anchor" href="#contat">Контакты</a></li>
+            <li><a class="anchor" href="#technology">Технологии</a></li>
+            <li><a class="anchor" href="#seminars">Семинары</a></li>
+            <li><a class="anchor" href="#help-constructor">В помощь конструктору</a></li>
           </ul>
           <div class="btn-personal">
             <a href="http://ncab.ru/auth/?page=%2Fmanager%2F">Личный кабинет</a>
@@ -60,7 +60,7 @@
   </header>
 
    <!-- Основной контент -->
-  <main class="wrapper">
+  <main class="wrapper" id="top">
     
     <section id="news">
       <div class="container">
@@ -73,7 +73,8 @@
             <div class="item-img" style="background: url(img/news1.png) no-repeat; background-size: cover"></div>
             <div class="item-content">
               <span>news</span>
-              <p>NCAB Group Annual Report and Sustainability Report 2020</p>
+              <h3>NCAB Group Annual Report and Sustainability Report 2020</h3>
+              <p>Commodity prices have continued to increase, with JP Morgan speculating that we are witnessing the start of a new super-cycle, driven by a post-pandemic recovery.</p>
               <a href="javascript:void(0)"><span>Подробнее</span> <i class="icon-arrow"></i> </a>
             </div>
           </div>
@@ -81,7 +82,8 @@
             <div class="item-img" style="background: url(img/news2.png) no-repeat; background-size: cover;"></div>
             <div class="item-content">
               <span>BLOG</span>
-              <p>Alleviate price increases with your PCB designs</p>
+              <h3>Alleviate price increases with your PCB designs</h3>
+              <p>Commodity prices have continued to increase, with JP Morgan speculating that we are witnessing the start of a new super-cycle, driven by a post-pandemic recovery.</p>
               <a href="javascript:void(0)"><span>Подробнее</span> <i class="icon-arrow"></i> </a>
             </div>
           </div>
@@ -89,7 +91,8 @@
             <div class="item-img" style="background: url(img/news3.png) no-repeat; background-size: cover"></div>
             <div class="item-content">
               <span>БЮЛЛЕТЕНИ</span>
-              <p>Изменяющийся мир печатных плат</p>
+              <h3>Изменяющийся мир печатных плат</h3>
+              <p>Commodity prices have continued to increase, with JP Morgan speculating that we are witnessing the start of a new super-cycle, driven by a post-pandemic recovery.</p>
               <a href="javascript:void(0)">
                 <span> Подробнее</span> <i class="icon-arrow"></i> </a>
             </div>
@@ -265,19 +268,34 @@
             <p>Рекомендации по дизайну многослойных печатных плат, HDI, гибких / гибко-жестких печатных плат и полугибкие печатных плат доступны для загрузки.</p>
           </div>
           <div class="help-constructor-content-item">
-            <div class="img" style="background: url(img/help-constructor.png) no-repeat 50% 50%;background-size: cover;"></div>
+            <div class="img" style="background: url(img/help-constructor.png) no-repeat 50% 50%;background-size: cover;">
+              <div class="hovered">
+                <a href="#errors">Подробнее <i class="icon-arrow-next"></i></a>
+              </div>
+            </div>
             <h4>Ошибки проектирования ПП</h4>
           </div>
           <div class="help-constructor-content-item">
-            <div class="img" style="background: url(img/help-constructor.png) no-repeat 50% 50%;background-size: cover;"></div>
+            <div class="img" style="background: url(img/help-constructor.png) no-repeat 50% 50%;background-size: cover;">
+              <div class="hovered">
+                <a href="#control-list">Подробнее <i class="icon-arrow-next"></i></a>
+              </div>
+            </div>
             <h4>Чек-лист проверки проекта ПП</h4>
           </div>
           <div class="help-constructor-content-item">
-            <div class="img" style="background: url(img/help-constructor.png) no-repeat 50% 50%;background-size: cover;"></div>
+            <div class="img" style="background: url(img/help-constructor.png) no-repeat 50% 50%;background-size: cover;">
+              <div class="hovered">
+                <a href="#famous-characteristics">Подробнее <i class="icon-arrow-next"></i></a>
+              </div>
+            </div>
             <h4>Спецификация ПП</h4>
           </div>
           <div class="help-constructor-content-item">
-            <div class="img" style="background: url(img/help-constructor.png) no-repeat 50% 50%;background-size: cover;"></div>
+            <div class="img" style="background: url(img/help-constructor.png) no-repeat 50% 50%;background-size: cover;">
+              <div class="hovered">
+                <a href="#">Подробнее <i class="icon-arrow-next"></i></a>
+              </div></div>
             <h4>Рекомендации по дизайну ПП</h4>
           </div>
         </div>
@@ -285,7 +303,7 @@
       </div>
     </section>
     
-    <section id="errors">
+    <section id="errors" class="help">
       <div class="container">
         <div class="section-title">
           <span>Ошибки проектирования ПП</span>
@@ -307,7 +325,7 @@
       </div>
     </section>
 
-    <section id="control-list">
+    <section id="control-list" class="help">
       <div class="container">
         <div class="section-title">
           <span>Контрольный список для проверки проекта печатной платы</span>
@@ -329,7 +347,7 @@
       
     </section>
 
-    <section id="famous-characteristics">
+    <section id="famous-characteristics" class="help">
       <div class="container">
         <div class="section-title">
           <span>Контрольный список для проверки проекта печатной платы</span>
@@ -360,7 +378,33 @@
         <div class="faq-content">
           <div class="faq-content-img">
             <div class="img-with-text" style="background: url(img/faq.png) no-repeat 50% 50%;background-size: cover;">
-              <p>Какие типы забивки переходных отверстий рекомендуются?</p>
+              <div class="faq-slider">
+                <div>
+                  <div class="item">
+                    <p>Какие типы забивки переходных отверстий рекомендуются?</p>
+                  </div>
+                </div>
+                <div>
+                  <div class="item">
+                    <p>Что такое микро-переход?</p>
+                  </div>
+                </div>
+                <div>
+                  <div class="item">
+                    <p>Что подразумевается под глухим переходным отверстием?</p>
+                  </div>
+                </div>
+                <div>
+                  <div class="item">
+                    <p>Какие конфигурации существуют для гибких и гибко-жестких печатных плат?</p>
+                  </div>
+                </div>
+                <div>
+                  <div class="item">
+                    <p>Какие значения ширины дорожек я могу использовать для плат с толстой медью?</p>
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="faq-content-text">
               <p>Мы составили список наиболее часто задаваемых вопросов и наиболее часто обсуждаемых тем.</p>
@@ -380,7 +424,9 @@
         <div class="contact-content">
           <div class="contact-content-img">
             <h4>Санкт-Петербург</h4>
-            <div class="img" style="background: url(img/contact.png) no-repeat 50% 50%;background-size: cover;"></div>
+            <div class="img">
+              <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A6b545fc0b6752dbc9e07980fe2e46bb52c3c88e61b7a967f9652fe76399b7f64&amp;source=constructor" width="100%" height="100%" frameborder="0"></iframe>
+            </div>
           </div>
           <div class="contact-content-text">
             <div class="adress">
@@ -484,7 +530,7 @@
         <div class="contact-content">
           <div class="contact-content-img">
             <h4>Москва</h4>
-            <div class="img" style="background: url(img/contact2.png) no-repeat 50% 50%;background-size: cover;"></div>
+            <div class="img"><iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa2ddad4834c442e24858350ea517e29ffe2e3ead8fc84da0faa4193cf4ffdb80&amp;source=constructor" width="100%" height="100%" frameborder="0"></iframe></div>
           </div>
           <div class="contact-content-text">
             <div class="adress">
@@ -587,7 +633,7 @@
         <div class="contact-content">
           <div class="contact-content-img">
             <h4>Сибирское подразделение</h4>
-            <div class="img" style="background: url(img/contact3.png) no-repeat 50% 50%;background-size: cover;"></div>
+            <div class="img"><iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A585297a0a98583472dad76aefa27a9d871211ceb5e308e8de3109b8bf80c638f&amp;source=constructor" width="100%" height="100%" frameborder="0"></iframe></div>
           </div>
           <div class="contact-content-text">
             <div class="adress">
@@ -792,6 +838,9 @@
       </div>
     </section>
 
+    <div class="go-to-top">
+      <a href="#top"><i class="icon-arrow-prev"></i></a>
+    </div>
 
     
     
